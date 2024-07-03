@@ -207,7 +207,6 @@ a.contact {
   flex-direction: row;
   flex-wrap: wrap;
   
-  justify-content: center;
 }
 
 .big-nav-box h1 {
@@ -220,22 +219,26 @@ a.contact {
   content:  "\00A0";
 }
 
+.hub-title {
+  padding-top: 1cm;
+  
+  text-align: center;
+  font-weight: bolder;
+  font-size: 25pt;
+}
+
 .inner-nav {
-  max-width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+  
+  padding-left: 0.25cm;
+  padding-right: 0.25cm;
+  
+  max-width: 48%;
 }
 
-.inner-nav:first-child {
-/*
-  border-right-color: #5b639a;
-  border-right-style: solid;
-  border-right-width: heavy;
-*/
-
-  padding-right: 0.25in;
-}
-
-.inner-nav:not(:first-child) {
-  padding-left: 0.25in;
+.inner-nav:last-of-type {
+    margin-left: 0;
 }
 
 .nav-element:not(:first-child) {
