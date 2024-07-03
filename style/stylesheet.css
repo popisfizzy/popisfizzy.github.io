@@ -55,7 +55,6 @@ a.contact {
 
 .header nav a {
   font-weight: normal;
-  font-size: 12pt;
 }
 
 .content {
@@ -179,6 +178,14 @@ a.contact {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+.header .intra-nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+  padding-left: 0.25cm;
 }
 
 .webtitle .subtitle {
