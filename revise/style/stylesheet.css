@@ -140,13 +140,12 @@ main section {
   max-width: 75vw;
 }
 
-/* Navigation box */
+/*** Navigation box ***/
 
 main > nav {
   align-self: center;
   
-  min-width: 12vw;
-  max-width: 14vw;
+  width: 13vw;
   
   margin-right: 1cm;
   
@@ -206,6 +205,35 @@ main > nav .nav-element {
 main > nav .nav-element p {
   padding-left: 0.25cm;
   font-size: 12pt;
+}
+
+/* List-style navigation box */
+
+main > nav > ul {
+  list-style: none;
+  margin-left: -1.55em;
+}
+
+main > nav > ul > li:not(:first-of-type) {
+  padding-top: 0.5em;
+}
+
+main > nav > ul > ul {
+  list-style: "- ";
+  margin-left: -0.5em;
+}
+
+main > nav > ul > ul a {
+  font-weight: normal;
+}
+
+main > nav > ul .active-page {
+  color: #cc285a;
+  font-weight: bold;
+}
+
+main > nav > ul .active-page:hover {
+  text-decoration: underline;
 }
 
 /* Primary content styling */
