@@ -267,6 +267,10 @@ section.content-area {
   text-align: justify;
 }
 
+section.content-area p.signoff {  
+  text-align: right;  
+}
+
 /* Nav hub */
 
 section.content-area section:has(+ section.nav-hub) {
