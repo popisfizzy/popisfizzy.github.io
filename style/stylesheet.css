@@ -278,9 +278,6 @@ section.content-area section:has(+ section.nav-hub) {
   border-bottom-color: #5b639a;
 }
 
-section.content-area > section.nav-hub {
-}
-
 section.content-area > section.nav-hub > h1 {
   padding-top: 0.5cm;
   
@@ -308,7 +305,7 @@ section.content-area > section.nav-hub .nav-wrapper nav {
 }
 
 section.content-area > section.nav-hub .nav-wrapper nav:last-of-type {
-    margin-left: 0;
+  margin-left: 0;
 }
 
 section.content-area > section.nav-hub .nav-wrapper nav .nav-element:not(:first-child) {
@@ -345,4 +342,16 @@ section.content-area > section.nav-hub .nav-wrapper nav h1 {
 section.content-area > section.nav-hub .nav-wrapper nav h1::before,
 section.content-area > section.nav-hub .nav-wrapper nav h1::after {
   content:  "\00A0";
+}
+
+section.content-area > section.nav-hub nav .more-link {
+  margin-top: 0.5cm;
+  margin-right: 1cm;
+  
+  text-align: right;
+  font-size: 12pt;
+}
+
+section.content-area > section.nav-hub nav .more-link a {
+  font-weight: normal;
 }
