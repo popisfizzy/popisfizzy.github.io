@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
+<!------
+
+*
+* Start of head
+*
+
+------->
+
 <head>
   <title>Math hub - MyPointlessRamblings</title>
   
@@ -17,35 +25,132 @@
 
   <!-- Styling -->
   <link rel="stylesheet" type="text/css" href="../style/stylesheet.css">
+  
 </head>
 
+<!------
+
+*
+* End of head
+*
+* Start of body
+*
+
+------->
+
 <body>
-  <header class="header">
-    <div class="webtitle">MyPointlessRamblings<span class="subtitle">/math</span></div>
-    
-    <nav class="inter-nav">
-      <a href="../">main</a>
-      <span>&nbsp;&bull;&nbsp;</span>
-      <a href="../wb/">wb</a>
-      <span>&nbsp;&bull;&nbsp;</span>
-      <a href="../me/">me</a>
-    </nav>
-  </header>
 
-  <main class="content">
-    <section>
+<!--
 
-      <article class="entry">
-        <p>Here you may find a list of my blog posts and my papers. At the moment the content is quite scant, bordering
-        on completely non-existent, but <em>ideally</em> that will change with time. We'll see how dedicated I am to
-        actually producing content.</p>
-        
-        <p class="signoff">&ndash;T.</p>
-      </article>
+*
+* Header
+*
+
+-->
+
+<header>
+  <div class="title">MyPointlessRamblings<span class="subtitle">/math</span></div>
   
-      <div class="big-nav-box">
+  <nav class="inter-nav">
+    <a href="../">main</a>
+    <span>&nbsp;&bull;&nbsp;</span>
+    <a href="../wb/">wb</a>
+    <span>&nbsp;&bull;&nbsp;</span>
+    <a href="../me/">me</a>
+  </nav>
+</header>
+
+<!--
+
+*
+* Main content
+*
+
+-->
+
+<main>
+
+  <!-- 
+  
+  *
+  * Navigation box.
+  *
+  
+  -->
+  
+  <nav>
+    <h2>Navigation</h2>
+  
+    <ul>
+      <li><a href="../">main</a></li>
+      
+      <li><span class="active-page">math</span></li>
+      <ul>
+        <li><a href="./blog/">blog</a></li>
+        <li><a href="./paper/">papers</a></li>
+      </ul>
+      
+      <li><a href="../wb/">worldbuilding</a></li>
+      <ul>
+        <li><a href="../wb/">articles</a></li>
+        <li><a href="../wb/">essays</a></li>
+        <li><a href="../wb/">notes</a></li>
+        <li><a href="../wb/">dictionary</a></li>
+        <li><a href="../wb/">literature &amp; folklore</a></li>
+      </ul>
+      
+      <li><a href="../me/">personal</a></li>
+    </ul>
+  </nav>
+  
+  <!--
+  
+  *
+  * Primary content area
+  *
+  
+  -->
+
+  <section class="content-area">
+  
+    <!--
+    
+    *
+    * Page description
+    *
+    
+    -->
+  
+    <section>
+      <h1>Research, blogs, and papers</h1>
+  
+      <p>Here you can find my blog posts and an archive of my papers, talking about my research and topics that I have
+      come across in the course of my research. There is currently not much present, but hopefully that will change in
+      due time. At least, it will change if I actually dedicate myself to producing content for this website.</p>
+    </section>
+    
+    <!--
+    
+    *
+    * Navigation hub
+    *
+    
+    -->
+    
+    <section class="nav-hub">
+      <h1>Hub</h1>
+      
+      <div class="nav-wrapper">
+      
+        <!--
         
-        <nav class="inner-nav">
+        *
+        * Blog
+        *
+        
+        -->
+      
+        <nav>
           <h1>Blog</h1>
           
           <div class="nav-element">
@@ -65,7 +170,15 @@
           
         </nav>
         
-        <nav class="inner-nav">
+        <!--
+        
+        *
+        * Papers
+        *
+        
+        -->
+        
+        <nav>
           <h1>Papers</h1>
           
           <div class="nav-element">
@@ -84,17 +197,35 @@
             </div>
           </div>
         </nav>
-        
+      
       </div>
-  
     </section>
-  </main>
   
-  <footer class="footer">
-    &copy; 2024 by <strong>T.</strong><br/>
-    <a class="contact" href="mailto:mypointlessramblings@gmail.com">mypointlessramblings@gmail.com</a>
-  </footer>
+  </section>
+  
+</main>
+
+<!--
+
+*
+* Footer
+*
+
+-->
+
+<footer>
+  &copy; 2024 by <strong>T.</strong><br/>
+  <a class="contact" href="mailto:mypointlessramblings@gmail.com">mypointlessramblings@gmail.com</a>
+</footer>
 
 </body>
+
+<!------
+
+*
+* End of body
+*
+
+------->
 
 </html>
