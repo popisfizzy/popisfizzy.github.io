@@ -240,6 +240,7 @@ main > nav > ul .active-page:hover {
 section.content-area {
   margin-top: 1cm;
   margin-bottom: 1cm;
+  width: 100%;
   
   text-align: justify;
 }
@@ -270,9 +271,26 @@ section.content-area p.signoff {
   text-align: right;  
 }
 
+/* Styling for iframes used to display PDF files */
+
+section.content-area iframe {
+  margin-left: 0.5cm;
+  margin-right: 0.75cm;
+  
+  width: 100%;
+  height: 600px;
+}
+
+
+
+
+
+
+
+
 /* Nav hub */
 
-section.content-area section:has(+ section.nav-hub) {
+section.content-area section:has(+ section.nav-hub):has(+ h1) {
   border-bottom-style: solid;
   border-bottom-width: heavy;
   border-bottom-color: #5b639a;
@@ -300,7 +318,9 @@ section.content-area > section.nav-hub .nav-wrapper nav {
   
   padding-left: 0.25cm;
   padding-right: 0.25cm;
-  
+}
+
+section.content-area > section.nav-hub .nav-wrapper nav:not(:only-child) {
   max-width: 48%;
 }
 

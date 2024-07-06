@@ -10,7 +10,7 @@
 ------->
 
 <head>
-  <title>Math hub - MyPointlessRamblings</title>
+  <title>Math papers - MyPointlessRamblings</title>
   
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -29,7 +29,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
   <!-- Styling -->
-  <link rel="stylesheet" type="text/css" href="../style/stylesheet.css">
+  <link rel="stylesheet" type="text/css" href="../../style/stylesheet.css">
   
 </head>
 
@@ -57,11 +57,17 @@
   <div class="title">MyPointlessRamblings<span class="subtitle">/math</span></div>
   
   <nav class="inter-nav">
-    <a href="../">main</a>
+    <a href="../../">main</a>
     <span>&nbsp;&bull;&nbsp;</span>
-    <a href="../wb/">wb</a>
+    <a href="../../wb/">wb</a>
     <span>&nbsp;&bull;&nbsp;</span>
-    <a href="../me/">me</a>
+    <a href="../../me/">me</a>
+  </nav>
+  
+  <nav class="intra-nav">
+    <a href="../">math</a>
+    <span>&nbsp;/&nbsp;</span>
+    <a href="./">paper</a>
   </nav>
 </header>
 
@@ -87,24 +93,24 @@
     <h2>Navigation</h2>
   
     <ul>
-      <li><a href="../">main</a></li>
+      <li><a href="../../">main</a></li>
       
-      <li><span class="active-page">math</span></li>
+      <li><a href="../">math</a></li>
       <ul>
-        <li><a href="./blog/">blog</a></li>
-        <li><a href="./paper/">papers</a></li>
+        <li><a href="../blog/">blog</a></li>
+        <li><span class="active-page">papers</span></li>
       </ul>
       
-      <li><a href="../wb/">worldbuilding</a></li>
+      <li><a href="../../wb/">worldbuilding</a></li>
       <ul>
-        <li><a href="../wb/">articles</a></li>
-        <li><a href="../wb/">essays</a></li>
-        <li><a href="../wb/">notes</a></li>
-        <li><a href="../wb/">dictionary</a></li>
-        <li><a href="../wb/">literature &amp; folklore</a></li>
+        <li><a href="../../wb/article/">articles</a></li>
+        <li><a href="../../wb/essay/">essays</a></li>
+        <li><a href="../../wb/note/">notes</a></li>
+        <li><a href="../../wb/dictionary/">dictionary</a></li>
+        <li><a href="../../wb/lnf/">literature &amp; folklore</a></li>
       </ul>
       
-      <li><a href="../me/">personal</a></li>
+      <li><a href="../../me/">personal</a></li>
     </ul>
   </nav>
   
@@ -121,63 +127,28 @@
     <!--
     
     *
-    * Page description
+    * Heading
     *
     
     -->
   
     <section>
-      <h1>Research, blogs, and papers</h1>
-  
-      <p>Here you can find my blog posts and an archive of my papers, talking about my research and topics that I have
-      come across in the course of my research. There is currently not much present, but hopefully that will change in
-      due time. At least, it will change if I actually dedicate myself to producing content for this website.</p>
+      <h1>Recent papers</h1>
     </section>
+    
+    
     
     <!--
     
     *
-    * Navigation hub
+    * Navigation for recent papers
     *
     
     -->
     
     <section class="nav-hub">
-      <h1>Hub</h1>
-      
       <div class="nav-wrapper">
       
-        <!--
-        
-        *
-        * Blog
-        *
-        
-        -->
-      
-        <nav>
-          <h1>Blog</h1>
-          
-          <div class="nav-element">
-            <a class="nav-title" href="./blog/set-foundation-methods/">
-              Methods akin to those of set foundations in arbitrary categories
-            </a>
-            
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-            nulla pariatur.</p>
-            
-            <div class="time">
-              Originally published <time datetime="2024-06-30 08:00-5:00">June 30, 2024 at 8:00 AM</time>
-            </div>
-          </div>
-          
-          <div class="more-link">
-            <a href="./blog/">More &rarr;</a>
-          </div>
-        </nav>
-        
         <!--
         
         *
@@ -187,10 +158,9 @@
         -->
         
         <nav>
-          <h1>Papers</h1>
-          
+        
           <div class="nav-element">
-            <a class="nav-title" href="./paper/alexandrov-dual-categories">
+            <a class="nav-title" href="./alexandrov-dual-categories">
               The interpretation of powersets in the context of (0,1)-category theory ands its applications to point-set
               topology
             </a>
@@ -214,14 +184,11 @@
             </div>
           </div>
           
-          <div class="more-link">
-            <a href="./blog/">More &rarr;</a>
-          </div>
         </nav>
       
       </div>
     </section>
-  
+    
   </section>
   
 </main>
