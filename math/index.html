@@ -18,6 +18,11 @@
   <meta http-equiv="expires" content="0"> 
   <meta http-equiv="pragma" content="no-cache">
   
+  <!-- MathJax plugin. This will probably only be present on the math parts of the website? -->
+  <script type="text/javascript" id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+  
   <!-- Google font API -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -186,14 +191,23 @@
           
           <div class="nav-element">
             <a class="nav-title" href="./paper/alexandrov-dual-categories">
-              The interpretation of powersets in the context of (0,1)-category theory ands its applications to point-set
-              topology
+              The interpretation of powersets in the context of \((0,1)\)-category theory ands its applications to
+              point-set topology
             </a>
             
-            <p>Nullam ultrices purus at laoreet finibus. Suspendisse nec justo rhoncus, tincidunt tellus at, rutrum
-            arcu. Sed nec nunc diam. Mauris rutrum, eros sed pulvinar feugiat, tortor elit bibendum nisl, a malesuada
-            tortor sem vel arcu. Pellentesque placerat efficitur luctus. Fusce ultricies dignissim neque, sit amet
-            viverra odio finibus eu. Nam molestie pellentesque elit nec egestas.</p>
+            <p>Given a preordered set \((X, \leq_X)\) we may equip \(X\) with a natural topology called the
+            <em>Alexandrov topology</em>, where the upper subsets of the preordered set are declared to be the open
+            subsets of the induced topology. This construction give a covariant functor from from the category of
+            preordered sets with monotone maps as morphisms to the category of topological spaces.</p>
+            
+            <p>In an alternative perspective, preordered sets are precisely \((0,1)\)-categories. The points of \(X\)
+            are its objects, and the \(\leq_X\) relationship between points are the morphisms in \(X\). From this
+            point-of-view, the Alexandrov topology takes a category and assigns it to a topological space where the
+            objects are our points and the open sets respect the arrows between them. We discuss this perspective, and
+            ways to understand common, canonical constructions in the category of topological spaces by viewing them
+            through the lens of the Alexandrov topology of a suitable preordered set. We also discuss implications for
+            higher category theory (most specifically, the theory of $1$-categories) and also how the various separation
+            axioms for topological spaces may be understood from this perspective.</p>
             
             <div class="time">
               Originally published <time datetime="2024-06-24 09:30-5:00">June 24, 2024 at 9:30 AM</time>
